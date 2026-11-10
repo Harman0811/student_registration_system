@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Students List</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<div class="table-container">
+    <h2>Registered Students</h2>
+
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Course</th>
+        </tr>
+
+        <tr th:each="s : ${list}">
+            <td th:text="${s.id}"></td>
+            <td th:text="${s.name}"></td>
+            <td th:text="${s.email}"></td>
+            <td th:text="${s.course}"></td>
+        </tr>
+    </table>
+
+    <a href="/">Back to Registration</a>
+</div>
+
+</body>
+</html>

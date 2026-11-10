@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Student Registration</h2>
+
+    <form action="/save" method="post">
+        <input type="text" name="name" placeholder="Enter Name" required>
+        <input type="email" name="email" placeholder="Enter Email" required>
+
+        <select name="course">
+            <option>BCA</option>
+            <option>BSC</option>
+            <option>BBA</option>
+        </select>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <a href="/students">View Students</a>
+</div>
+
+</body>
+</html>
