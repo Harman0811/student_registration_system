@@ -25,6 +25,14 @@ Java, Spring Boot, Spring Data JPA, MySQL, Thymeleaf, HTML, CSS
 5. Open http://localhost:8083
 
 ## Screenshots
-![Registration page](screenshots/register.png)
-![Success page](screenshots/success.png)
-![Student list](screenshots/students.png)
+### Registering the students
+
+![Registration page](outputs/register.png)
+
+### Successful registration
+
+![Success page](outputs/success.png)
+
+### All registered students
+
+![Student list](outputs/students.png)
